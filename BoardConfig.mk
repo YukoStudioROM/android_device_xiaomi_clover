@@ -30,6 +30,10 @@ DEVICE_PATH := device/xiaomi/clover
 # Kernel
 TARGET_KERNEL_CONFIG := clover_defconfig
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
+BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/recovery.fstab
 
