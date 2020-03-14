@@ -30,6 +30,9 @@ DEVICE_PATH := device/xiaomi/clover
 # Kernel
 TARGET_KERNEL_CONFIG := clover_defconfig
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifests/manifest.xml
+
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
