@@ -40,7 +40,7 @@ vendor/lib/libcdsprpc.so
 vendor/lib/libchromaflash.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libdualcameraddm.so
-vendor/lib/libFaceGrade.so
+vendor/lib/libFaceGrade.so|da3fb5f1c3e9c2b6300169d6a4cbddb8858076f4
 vendor/lib/libflash_pmic.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
