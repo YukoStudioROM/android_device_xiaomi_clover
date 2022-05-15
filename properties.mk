@@ -23,6 +23,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.calfile8=/vendor/etc/acdbdata/adsp_avs_config.acdb \
     persist.audio.calfile8D9P=/vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Bypass FBE prop check
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.sys.listeners.registered=true
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1 \
