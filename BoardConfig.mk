@@ -31,6 +31,7 @@ DEVICE_PATH := device/xiaomi/clover
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := clover_defconfig
 
 # HIDL
