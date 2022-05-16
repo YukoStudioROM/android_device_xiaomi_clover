@@ -30,6 +30,7 @@ vendor/firmware/tas2557s_uCDSP.bin
 vendor/firmware/tas2557s_uCDSP_d9p.bin
 
 # Camera
+lib/libgui.so:vendor/lib/libgui.so
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libXMFD_AgeGender.so
