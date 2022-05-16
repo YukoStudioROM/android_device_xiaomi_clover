@@ -462,9 +462,11 @@ vendor/lib64/hw/keystore.sdm660.so
 
 # Qteeconnector
 lib/libGPTEE_system.so
+lib/libicuuc.so:vendor/lib/libicuuc.so
 lib/libQTEEConnector_system.so
 lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/libGPTEE_system.so
+lib64/libicuuc.so:vendor/lib64/libicuuc.so
 lib64/libQTEEConnector_system.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
